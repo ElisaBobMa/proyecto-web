@@ -163,3 +163,31 @@ main{
    transform: translateY(0);
 }
 
+/* acerca de y contact */
+.about{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("./img1.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 50px 40px;
+}
